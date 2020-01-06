@@ -1,0 +1,81 @@
+.bgimg2{
+    height: 600px;
+    background-image: url('/img/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg3{
+    height: 600px;
+    background-image: url('/img/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.prod-div{
+    background-color: #00568D;
+    color: #fff;
+}
+
+.cloudbg{
+    height: 1000px;
+    background-image: url('/img/cloudbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+.include{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px !important;
+}
+
+.card-include{
+    background-color: #073050 !important;
+    color: #fff !important;
+    height: 300px !important;
+}
+
+.features{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px !important;
+}
+
+.card-features{
+    background-color: transparent !important;
+    color: #fff !important;
+    height: 200px !important;
+}
+
+.row{
+    margin-right: 0 !important; 
+}
+
+.os{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px !important;
+}
+
+.card-os{
+    height: 150px !important;
+}
+
+/* ICONS */
+
+.fa-cogs,.fa-windows,.fa-centos,.fa-ubuntu{
+    color: #f0b828;
+}
+
+/* .cs-prod{
+    height: 250px;
+    width: 800px;
+} */

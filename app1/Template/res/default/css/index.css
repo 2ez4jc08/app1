@@ -1,0 +1,351 @@
+body {
+	width:100%;
+	padding:0;
+	margin:0;	
+	font-family:"microsoft yahei";
+	
+}
+
+.beijing {
+	width:100%;
+	background:#352414;
+	background-position:center;
+	background:url(../images/pc/bodybg.png);
+}
+
+a{
+	text-decoration:none;	
+}
+
+#myCarousel {
+	width:100%;
+	min-width:1292px;
+}
+
+#myCarousel img {
+	width:100%;
+	min-width:1292px;
+}
+
+#content {
+	width:1080px;
+	margin:0 auto;
+	position:relative;
+	top:-5%;
+	padding:0 39px;
+	padding-bottom: 20px;
+}
+
+#content .jian {
+	position:fixed;
+	top:20px;
+}
+
+#content .right {
+	margin:0 auto;
+}
+
+.shang_tuijian {
+	width:98%;
+	margin:0 auto;
+	padding:10px 0;
+}
+
+.shang_tuijian img.tuijian_da {
+	width:100%;
+	height:60px;
+	display:block;
+}
+
+.shang_tuijian img.tuijian_xiao {
+	width:49.7%;
+	height:60px;
+	display:block;
+	margin-top:6px;
+}
+
+#zuqiu {
+	margin:0 auto;
+	background-color:#fff;
+}
+
+img.biaoti {
+	margin-bottom:10px;
+}
+
+img.biaotiz {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.table {
+	width:100%;
+	
+}
+
+.table tr th {
+	color:#000;
+	background:#FFFF00;
+	border:1px solid #B49C00;
+	padding:10px 0;
+	text-align:center;
+	height:62px;
+	border-top:1px solid #B49C00!important;
+}
+
+.table tr td {
+	text-align:center;
+	border:1px solid #B49C00;
+	padding:10px 0;
+	height:62px;
+}
+
+.table tr td a {
+	text-decoration:none;
+}
+
+.zise {
+	color:#885DBC;
+}
+
+.fense {
+	color:#FC6F6C;
+}
+
+.winres{
+	color: #FC6F6C; 
+}
+.loseres {
+	color: #000;
+}
+.waitres{
+	color: #4E5DED;
+}
+
+#lanqiu{
+	background-color:#fff;
+}
+#lanqiu,#yule,#shiyong {	
+	margin:0 auto;
+}
+#tuijie,#yinhang,#caipiao,#zuiqiuw,#saima,#jinrong {
+	width:98%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#yule  .yule_list {
+	width:100%;				
+}
+.yule_list a {
+	display:block;
+	height:78px;
+	width:16%;
+	margin-right:0.8%;
+	float:left;
+}
+.yule_list a img {			
+	width:100%;
+}
+.yule_list a:nth-child(6) {				
+	margin-right:0;
+}
+.url_guanli {
+	width:100%;
+	border:1px solid #EAEAEA;
+}
+.url_guanli .url_title {
+	padding:5px 5px;
+	border-bottom:1px solid #EAEAEA;
+}
+.url_title a.xuanxiang {
+	display:block;
+	float:left;
+	margin-right:10px;
+	color:#537CA3;
+	width:60px;
+	text-align:center;
+	padding:2px 10px 10px 10px;
+	text-decoration:none;
+}
+.url_guanli .url_xiang {
+	padding:10px 5px;
+	padding-bottom:0;
+}
+.url_xiang .url_list {
+	width:100%;
+}
+.url_list a.url {
+	display:block;
+	width:16.3%;
+	float:left;
+	margin-right:0.44%;
+	background:#F8F8F8;
+	color:#333;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	margin-bottom:10px;
+	text-decoration:none;
+}
+.url_list a.url:hover {
+	background:#306293;
+	color:#fff;
+}
+.url_list a.url:nth-child(6n) {
+	margin-right:0;
+}
+.url_title a.xuanxiang.active {
+	background:url(../images/jiantou.png) no-repeat;
+	color:#fff;
+}
+.none {
+	display:none;	
+}
+#footer {
+	width:100%;
+	min-width:1292px;
+	background:#306293;
+	color:#fff;
+	padding:15px 0;
+	margin-top:20px;
+	font-size:12px;
+}
+.#footer .footer {
+	width:1292px;
+	margin:0 auto;
+}
+.footer .qita {
+	width:100%;
+	text-align:center;
+	margin-bottom:5px;
+}
+.qita a {
+	color:#fff;
+	text-decoration:none;
+}
+#navigator {
+	position:absolute;
+	top:0;
+	z-index:999999;
+	min-width:1292px;
+}
+#logo {
+	float:left;
+	margin-right:26px;
+	margin-top:10px;
+}
+#logo img {
+	height:80px;
+}
+#navigator {
+	margin:0;
+	padding:0;	
+	float:left;
+	height:90px;
+	overflow:hidden;
+}
+#logo {
+	margin-left:40px;
+}
+#nav li.nav_li {
+	display:block;
+	float:left;
+}
+li.nav_li a.nav_a {
+	padding:0 24px;
+	display:block;
+	height:90px;
+	font-size:16px;
+	color:#333;
+	text-decoration:none;
+	line-height:98px;
+}
+li.nav_li a.nav_a:hover {
+	background:#306293;
+	color:#fff!important;
+}
+a.nav_a.nav_a_active {
+	background:#306293;
+	color:#fff!important;
+}
+.erweiimg {
+	position:fixed;
+	top:300px;
+	text-align:center;
+}
+.erweiimg_left {
+	left:0;
+}
+.erweiimg_right {
+	right:0;
+}
+.erweiimg{
+	margin-top:20px;
+}
+
+.erweiimg img {
+	width: 300px;
+	height: 300px;
+	object-fit:scale-down;
+}
+#dbiaoti{background:url(../images/pc/resbg.png) no-repeat;height:289px;width:auto;padding:20px;}
+.dbiaoti_l{float:left;font-size:18px;font-weight:bold;line-height:40px;width:60%;}
+.dbiaoti_r{float:left;text-align:center;}
+.dbiaoti_r img{ margin-top:15px; width: 200px; height: 200px;}
+.red{color:red;}
+.blue{color: #3F9DE2;}
+
+.shidan{display:inline-block;padding:2px 14px;background-color:#1870E7;color:#fff;border-radius:25px;cursor:pointer;}
+/***弹窗***/
+
+.cd-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    z-index:9999;
+}
+.cd-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.cd-popup-container {
+    position: relative;
+    width:600px;
+    margin:250px auto;
+    height:250px;
+    background: #FFF;
+    border-radius: .4rem .4rem .4rem .4rem;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.cd-popup-close{ position: absolute;right:10px;top:10px; z-index: 10;width:auto;height:1.25rem; display: block;font-size:14px;color:#fff;}
+.is-visible .cd-popup-container {-webkit-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1); -o-transform:scale(1); transform:scale(1);}
+
+/***弹窗结束***/
+

@@ -1,0 +1,78 @@
+.bgimg{
+    height: 600px;
+    background-image: url('/img/mainbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.prod{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px !important;
+}
+
+.slogan{
+    color: #fff;
+    background-color: transparent !important;
+    margin-top: 200px !important;
+    font-family: 'Lalezar' !important;
+}
+
+.card-prod{
+    background-color: #073050 !important;
+    color: #fff !important;
+    height: 400px !important;
+}
+
+.include{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px !important;
+}
+
+.card-include{
+    height: 300px !important;
+}
+
+.div-includes{
+    /* background-color: #f2f2f2; */
+    background-image: url('/img/subbg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-includes .container h1{
+    color: #fff;
+}
+
+.div-support{
+    background-color: #f2f2f2;
+}
+
+.os{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px !important;
+}
+
+.card-os{
+    height: 200px !important;
+}
+
+.card-support{
+    height: 200px !important;
+}
+
+.why{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px !important;
+}
+
+.card-why{
+    background-color: transparent !important;
+    color: #000 !important;
+    height: 200px !important;
+}

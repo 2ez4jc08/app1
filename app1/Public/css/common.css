@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-div{
+    background-color: #073050 !important;
+}
+
+.navbar {
+    background-color: #073050 !important;
+    /* background-color: transparent !important; */
+    /* background-color: #fff !important; */
+}
+
+.nav-support{
+    background-color: #0c558d !important;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff !important;
+    /* color: #000 !important; */
+}
+
+.dropdown-menu a{
+    color: #22223A !important;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: #fff !important;
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213, 108, 44, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.footer-div{
+    height: 400px;
+    background-color: #073050 !important;
+}
+
+.footer-div h5{
+    color: #fff;
+}
+
+.footer-div a{
+    color: #eeb011;
+    text-decoration: none;
+}
+
+.lower-footer{
+    color: #fff;
+   
+}
+
+hr{
+    color: #fff;
+    background-color: #fff;
+}
+
+.nav-support a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.floater{
+    bottom: 0;
+    right: 20px;
+    position: fixed;
+}
+
+.trig-div{
+    height: 500px;
+}
+
+.support-float{
+    width: 200px;
+    height: 500px;
+    background-image: url('/img/support-float.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+.support-trigger{
+    margin-top: 400px;
+    width: 90px;
+    height: 90px;
+    background-image: url('/img/sup-ava.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+
+.support-list{
+    margin-top: 75%;
+}
+
+/* ICONS */
+
+.fa-qq{
+    color: #22AFDD;
+}
+
+@media (max-width: 425px) {
+    .footer-div{
+        height: 600px;
+    }
+}

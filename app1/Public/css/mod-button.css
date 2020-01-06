@@ -1,0 +1,19 @@
+.mod-btn{
+    color: #fff !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.mod-btn-fb{
+    background-color: #3B5998 !important;
+}
+
+.mod-btn-google{
+    background-color: #DD4B39 !important;
+}
+
+.mod-btn-twitter{
+    background-color: #55ACEE !important;
+}

@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+img{vertical-align:bottom;}
+body{font-size:12px;min-width:320px;
+	background-color: #342414;
+	background:url(../images/mobile/bodybg.png);
+
+}
+	
+#myCarousel{width:100%;}  
+#myCarousel img{width:100%;}
+
+.title{
+	padding: 10px 0;
+	text-align: center;
+}
+.title img{
+	width: 63%;
+}
+.title .qq{
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	background:url(/statics/default/images/mbiaoti1.png);
+	background-size:cover;
+	width:186px;
+	padding:4px 0;
+	margin:0 auto;
+}
+.winres{
+	color: #FC6F6C; 
+}
+.loseres {
+	color: #000;
+}
+.waitres{
+	color: #4E5DED;
+}
+.bg{
+	position: relative;
+}
+.imgclass{
+	width: 100px;
+	position: absolute;
+	top: 66px;
+}
+.bg .clssv{
+	left: 20%;
+}
+.bg .clssv1{
+	right: 20%;
+}
+
+#content{
+	margin-top: 60px;
+}
+
+.item{
+	width:120px;
+	text-align:center;
+	display:block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	margin-right: 10px;
+	margin-bottom: 1px;
+	float:left;
+}
+
+.table{border-collapse:collapse;text-align:center; font-size:8px;border-color:#DBC958;width: 100%;}
+.table th{background-color:#FFFF00;color:#000;border: 1px solid #DACA58;}
+.table tr td{line-height:2}
+.shidan{display:inline-block;padding:2px 12px;background-color:#1870E7;border-radius:25px;color:#fff;cursor:pointer;}
+.table tr:nth-child(odd){
+	background-color:#fff
+}
+.table tr:nth-child(even){
+	background-color:#D4F4FF
+}
+.table tr td:first-child{
+	color:#9567B7;
+}
+p strong {
+	
+}
+
+/***弹窗***/
+
+.cd-popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index:9999;
+}
+
+.cd-popup.is-visible {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.cd-popup-container {
+	position: relative;
+	width:95%;
+	margin:250px auto;
+	height:250px;
+	background: #FFF;
+	border-radius: .4rem .4rem .4rem .4rem;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.cd-popup-close{ position: absolute;right:10px;top:10px; z-index: 10;width:auto;height:1.25rem; display: block;font-size:14px;color:#fff;}
+.is-visible .cd-popup-container {-webkit-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1); -o-transform:scale(1); transform:scale(1);}
+
+/***弹窗结束***/

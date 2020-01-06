@@ -1,0 +1,47 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <span>USER : </span><span>ADMIN1</span>
+    </div>
+
+    <ul class="list-unstyled components">
+        <li>
+            <a class="nav-link" href="/Admin/Dashboard">Dashboard</a>
+        </li>
+    </ul>
+    <ul class="list-unstyled components">
+        <li>
+            <a class="nav-link" href="/Admin/Page">Page</a>
+        </li>
+        <li>
+            <a class="nav-link" href="/Admin/Client">Client</a>
+        </li>
+        <li>
+            <a class="nav-link" href="/Admin/Plan">Plan</a>
+        </li>
+    </ul>
+    <ul class="list-unstyled components">
+        <li>
+            <a class="nav-link" href="/Admin/User">User</a>
+        </li>
+        <li>
+            <a class="nav-link" href="/Admin/Setting">Setting</a>
+        </li>
+        <li>
+            <a class="nav-link" id="btnlogout" data-toggle="modal" data-target="#logoutModal"><small>Sign Out</small><i class="fas fa-sign-out-alt ml-2"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<div class="modal fade" id="logoutModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="logoutModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <a class="modal-title" id="logoutModalCenterTitle">logout？</a>
+            </div>
+            <div class="modal-body text-center">
+                <button id="btncancelout" type="button" class="btn btn-dark" data-dismiss="modal">CANCEL</button>
+                <button id="btnsubmitout" type="submit" class="btn btn-success" >SUBMIT</button>
+            </div>
+        </div>
+    </div>
+</div>

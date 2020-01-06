@@ -1,0 +1,25 @@
+/* ICON COLOR */
+
+.fa-cogs,.fa-windows,.fa-centos,.fa-ubuntu, .fa-comments, .fa-at, .fa-phone-square, .fa-shield-alt, .fa-award, .fa-tools, .fa-server, .fa-headset, .fa-database, .fa-clock, .fa-save, .fa-chart-line, .fa-fist-raised{
+    color: #f0b828;
+}
+
+.fa-facebook{
+    color: #325998;
+}
+
+.fa-google-plus{
+    color: #D33A43;
+}
+
+.fa-twitter{
+    color: #2AA8E1;
+}
+
+.fa-weixin{
+    color: #5CE16A;
+}
+
+.fa-qq{
+    color: #22AFDD;
+}

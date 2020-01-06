@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.login-card{
+    height: 400px !important;
+    width: 400px !important;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.card-header{
+    color: #000!important;
+    background-color: #fff !important;
+}
+
+.md-form label {
+    color: #000;
+}
+
+.md-form i{
+    color: #000;
+}
+
+.md-form input[type=text], .md-form input[type=password], .md-form input[type=email]{
+    color: #000 !important;
+}
+
+.md-form input[type=text]:focus, .md-form input[type=password]:focus, .md-form input[type=email]:focus{
+    color: #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+.md-form input[type=text]:focus + label, .md-form input[type=password]:focus + label, .md-form input[type=email]:focus + label{
+    color: #000 !important;
+}
+
+.md-form i{
+    color: #016087 !important;
+}
+
+.btn-outline-primary{
+    border-radius: 25px !important;
+}
+
+.custom-control label{
+    color: #000;
+}
+
+.register a{
+    color: #000;
+}
+
+.login-menu{
+    border: 1px solid #016087;
+    cursor: pointer;
+}
+
+.login-menu-active{
+    background-color: #016087;
+    color: #fff;
+}
